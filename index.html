@@ -1,1 +1,71 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker Application</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to the Expense Tracker</h2>
+            <p>Keep track of your expenses easily and efficiently.</p>
+        </section>
+
+        <section>
+            <h3>Register Here</h3>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>User Information</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nicole Jerono</td>
+                        <td>nicolejerono@gmailcom</td>
+                        <td>(123) 456-7890</td>
+                    </tr>
+                    <tr>
+                        <td>Lily Jeptoo</td>
+                        <td>lilyjeptoo.com</td>
+                        <td>0706054380</td>
+                    </tr>
+                </body>
+            </table>
+        </section>
+
+        <section>
+            <h3>Track Your Expenses</h3>
+            <img src="images/expense-tracker.jpg" alt="Expense Tracker">
+        </section>
+    </main>
+
+    <footer>
+        <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+    </footer>
+</body>
+</html>
